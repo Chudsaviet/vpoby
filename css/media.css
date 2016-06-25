@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 998px;
+    }
+    header .header_right {
+        padding: 10px 0;
+        width: 55%;
+        float: left;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .container {
+        width: 768px;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 5px;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .visible-xs {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {}
+
+@media screen and (max-width: 570px) {}
+
+@media screen and (max-width: 380px) {}
+
+@media screen and (min-width: 769px) {}
